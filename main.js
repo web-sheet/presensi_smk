@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import qrcode from 'qrcode-terminal'; 
-import Client from 'whatsapp-web.js';
+import { Client } from 'whatsapp-web.js';
 import express from 'express';
 import path from 'path';
 import http from 'http';
