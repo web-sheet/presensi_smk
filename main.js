@@ -1,13 +1,13 @@
 import fetch from 'node-fetch';
 import qrcode from 'qrcode-terminal'; 
-import pkg from 'whatsapp-web.js';
+import Client from 'whatsapp-web.js';
 import express from 'express';
 import path from 'path';
 import http from 'http';
 import { Server } from 'socket.io'; 
 import puppeteer from 'puppeteer-core';
 
-const { Client, LocalAuth} = pkg;
+ 
 
 const app = express();
 const server = http.createServer(app);
