@@ -44,7 +44,7 @@ app.post('/sendMessages', async (req, res) => {
 
 const client = new Client(
       
-         {  
+    {restartOnAuthFail: true, 
          puppeteer: { headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] } });
 
 
